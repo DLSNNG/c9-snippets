@@ -1,7 +1,7 @@
 {
   "name": "snippet.collection",
   "description": "A simple collection of snippets",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Nathan Richard Ng",
   "contributors": [
     {
@@ -14,9 +14,16 @@
     "url": "https://github.com/DLSNNG/c9-snippets"
   },
   "plugins": {
-    "plugin": {}
+    "plugin": {
+      "packagePath": "plugins/snippet.collection/plugin"
+    }
   },
-  "categories": ["miscellaneous"],
+  "categories": [
+    "miscellaneous"
+  ],
   "licenses": [],
-  "engines": {"c9":">=3.0.0"}
+  "engines": {
+    "c9": ">=3.0.0"
+  },
+  "permissions": "world"
 }
