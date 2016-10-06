@@ -18,4 +18,5 @@
   },
   "categories": ["miscellaneous"],
   "licenses": [],
+  "engines": {"c9":">=3.0.0"}
 }
